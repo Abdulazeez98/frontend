@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* p::before{
+    content: "my name is";
+} */
+
+p{
+    animation: welcome 1000ms infinite alternate-reverse;
+}
+
+@keyframes welcome {
+    0%{
+        transform: translateY(8px);
+    }
+
+    50%{
+        transform: translateY(16px);
+    }
+
+    100%{
+        transform: translateY(25px);
+    }
+}
